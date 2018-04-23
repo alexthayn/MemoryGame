@@ -1,0 +1,55 @@
+﻿<Window x:Class="MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MemoryGame"
+        mc:Ignorable="d"
+        Title="Memory Game" Height="800" Width="700"
+        Loaded="Application_Startup">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width=".5*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <Button Grid.Row="1" Grid.Column="3" Height="30" Margin="5" Background="OrangeRed" VerticalAlignment="Bottom" Click="NewGame">New Game</Button>
+        <Button Grid.Row="2" Grid.Column="4" Height="30" Margin="5" Background="LawnGreen" VerticalAlignment="Top" Click="ExitGame">Exit</Button>
+
+        <Image Grid.Row="0" Grid.Column="0" Name="Img00"></Image>
+        <Image Grid.Row="0" Grid.Column="1" Name="Img01"></Image>
+        <Image Grid.Row="0" Grid.Column="2" Name="Img02"></Image>
+        <Image Grid.Row="1" Grid.Column="0" Name="Img10"></Image>
+        <Image Grid.Row="1" Grid.Column="1" Name="Img11"></Image>
+        <Image Grid.Row="1" Grid.Column="2" Name="Img12"></Image>
+        <Image Grid.Row="2" Grid.Column="0" Name="Img20"></Image>
+        <Image Grid.Row="2" Grid.Column="1" Name="Img21"></Image>
+        <Image Grid.Row="2" Grid.Column="2" Name="Img22"></Image>
+        <Image Grid.Row="3" Grid.Column="0" Name="Img30"></Image>
+        <Image Grid.Row="3" Grid.Column="1" Name="Img31"></Image>
+        <Image Grid.Row="3" Grid.Column="2" Name="Img32"></Image>
+
+        <Button Grid.Row="0" Grid.Column="0" Name="Btn00" Click="CardClicked"></Button>
+        <Button Grid.Row="0" Grid.Column="1" Name="Btn01" Click="CardClicked"></Button>
+        <Button Grid.Row="0" Grid.Column="2" Name="Btn02" Click="CardClicked"></Button>
+        <Button Grid.Row="1" Grid.Column="0" Name="Btn10" Click="CardClicked"></Button>
+        <Button Grid.Row="1" Grid.Column="1" Name="Btn11" Click="CardClicked"></Button>
+        <Button Grid.Row="1" Grid.Column="2" Name="Btn12" Click="CardClicked"></Button>
+        <Button Grid.Row="2" Grid.Column="0" Name="Btn20" Click="CardClicked"></Button>
+        <Button Grid.Row="2" Grid.Column="1" Name="Btn21" Click="CardClicked" ></Button>
+        <Button Grid.Row="2" Grid.Column="2" Name="Btn22" Click="CardClicked"></Button>
+        <Button Grid.Row="3" Grid.Column="0" Name="Btn30" Click="CardClicked"></Button>
+        <Button Grid.Row="3" Grid.Column="1" Name="Btn31" Click="CardClicked"></Button>
+        <Button Grid.Row="3" Grid.Column="2" Name="Btn32" Click="CardClicked"></Button>
+    </Grid>
+
+   
+</Window>

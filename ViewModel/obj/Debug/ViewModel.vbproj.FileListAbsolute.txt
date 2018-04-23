@@ -1,0 +1,14 @@
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\bin\Debug\ViewModel.dll
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\bin\Debug\ViewModel.pdb
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\bin\Debug\ViewModel.xml
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\bin\Debug\Model.dll
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\bin\Debug\Model.pdb
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\bin\Debug\Model.xml
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.vbprojResolveAssemblyReference.cache
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.Resources.resources
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.vbproj.GenerateResource.cache
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.vbproj.CoreCompileInputs.cache
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.vbproj.CopyComplete
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.dll
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.xml
+C:\Users\Alex\source\repos\MemoryGame\ViewModel\obj\Debug\ViewModel.pdb
